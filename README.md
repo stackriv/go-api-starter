@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/github/license/stackriv/go-api-starter)
 ![Stars](https://img.shields.io/github/stars/stackriv/go-api-starter)
 ![Issues](https://img.shields.io/github/issues/stackriv/go-api-starter)
-![Go Version](https://img.shields.io/badge/Go-1.23-blue)
+![Go Version](https://img.shields.io/badge/Go-1.25-blue)
 ![Forks](https://img.shields.io/github/forks/stackriv/go-api-starter)
 
 ## Overview
