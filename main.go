@@ -66,6 +66,14 @@ func start(args []string) error {
 }
 
 func routes(mux *http.ServeMux) *http.ServeMux {
+	// Initialize repositories
+	// e.g: (userRepo := repository.NewUserRepo(DB))
+
+	// Initialize services
+	// e.g: (userService := service.UserService({Repository: userRepo})
+
+	// Initialize controllers
+	// e.g: (userController := controller.UserController({Service: userService}))
 	// mux = userController.UserRoutes(mux)
 	return mux
 }

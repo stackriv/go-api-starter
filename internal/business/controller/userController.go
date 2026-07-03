@@ -5,11 +5,12 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/stackriv/go-api-starter/internal/business/service"
 	"github.com/stackriv/go-api-starter/internal/pkg"
 )
 
 type UserController struct {
-	// UserService service.UserService
+	Service service.UserService
 }
 
 func (u *UserController) Register(w http.ResponseWriter, r *http.Request) {
